@@ -56,17 +56,7 @@ export default withNuxt({
         alphabetical: true,
       },
     ],
-    'vue/max-attributes-per-line': [
-      'error',
-      {
-        singleline: {
-          max: 1,
-        },
-        multiline: {
-          max: 1,
-        },
-      },
-    ],
+    'vue/max-attributes-per-line': 'off',
     'vue/no-multiple-template-root': 'off',
     'vue/multi-word-component-names': 'off',
   },
