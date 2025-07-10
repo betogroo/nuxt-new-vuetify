@@ -1,0 +1,39 @@
+{
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.confirmDragAndDrop": false,
+
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.tabWidth": 2,
+  "prettier.bracketSameLine": false,
+  "prettier.endOfLine": "lf",
+
+  "files.eol": "\n",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.words": [
+    "composables",
+    "heroicons",
+    "pinia",
+    "supabase",
+    "Supabase",
+    "vuetify"
+  ]
+}
